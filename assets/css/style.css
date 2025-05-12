@@ -75,6 +75,7 @@ nav.main-menu ul li {
 nav.main-menu ul li a {
     padding: 10px 15px;
     color: #333;
+    transition: 0.3s;
 }
 nav.main-menu ul li a:hover {
     color: #4ecdd4;
@@ -100,3 +101,82 @@ nav.main-menu ul li a:hover {
     line-height: 23px;
     border-radius: 4px;
 }
+/* end menu */
+
+/* start search-box */
+.search-box-right {
+    float: right;
+    width: 50%;
+}
+.search-box-left {
+    float: left;
+    width: 50%;
+}
+.bg-search-box {
+    background-image: url(../img/bglines.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    min-height: 450px;
+}
+.wrap-search {
+    text-align: center;
+    position: absolute;
+    top: 32%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.center-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #0d9aff;
+}
+.form-search-wrap {
+    position: relative;
+}
+.form-search-wrap input {
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    line-height: 100%;
+    padding: 10px 15px;
+    margin: 0;
+    background-color: #fff;
+    font-family: "Shabnam FD";
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+.form-search-wrap button {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: auto;
+    color: #fff;
+    border: 0;
+    padding: 0 15px;
+    cursor: pointer;
+    height: 40px;
+    font-family: "Shabnam FD";
+    min-width: 50px;
+    line-height: 100%;
+    background-color: #333;
+    border-radius: 0 2px 2px 0;
+}
+.form-search-wrap button::before {
+    content: "";
+    position: absolute;
+    border-width: 8px 8px 8px 0;
+    border-style: solid solid solid none;
+    border-color: transparent #333;
+    left: auto;
+    right: -6px;
+    border-width: 8px 0 8px 8px;
+    border-style: solid none solid solid;
+}
+.search-box-left img {
+    height: 400px;
+    margin-top: 20px;
+}
+/* end search-box */
