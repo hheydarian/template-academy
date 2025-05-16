@@ -25,6 +25,7 @@ body {
     font-family: "Shabnam FD";
     background-color: #fff;
     color: #7d7e7f;
+    height: 100000px;
 }
 .container {
     max-width: 1200px;
@@ -180,3 +181,10 @@ nav.main-menu ul li a:hover {
     margin-top: 20px;
 }
 /* end search-box */
+/* start cat list */
+.cat-list {
+    background-color: #fff;
+    box-shadow: 0 5px 50px 0 rgb(217 217 217 /37%);
+    
+}
+/* end cat list */
